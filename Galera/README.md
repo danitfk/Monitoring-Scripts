@@ -35,7 +35,7 @@ You can use this script in Zabbix to produce items. There is an example for user
 
 ```
 UserParameter=galera.cluster_status, /etc/zabbix/scripts/Galera-Monitoring-Toolkit.sh cluster_status
-UserParameter=galera.cluster_status, /etc/zabbix/scripts/Galera-Monitoring-Toolkit.sh cluster_size  
+UserParameter=galera.cluster_size, /etc/zabbix/scripts/Galera-Monitoring-Toolkit.sh cluster_size  
 UserParameter=galera.wsrep_connection, /etc/zabbix/scripts/Galera-Monitoring-Toolkit.sh wsrep_connection
 UserParameter=galera.wsrep_send_queue, /etc/zabbix/scripts/Galera-Monitoring-Toolkit.sh wsrep_send_queue
 
