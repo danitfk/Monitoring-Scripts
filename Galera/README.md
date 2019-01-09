@@ -30,6 +30,7 @@ dani@GaleraNode01:/etc/zabbix/scripts$ ./Galera-Monitoring-Toolkit.sh wsrep_send
 ```
 
 # Zabbix Integration:
+** Zabbix Template with Graph / Item / Triggers Included **
 
 You can use this script in Zabbix to produce items. There is an example for userparameter:
 
